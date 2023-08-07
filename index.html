@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Start project</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/" class="header__logo">
+          <img src="img/logo.svg" alt="William King" />
+        </a>
+        <div class="header__nav">
+          <ul class="header__list" id="headerList">
+            <li class="header__item">
+              <a class="header__link _active" href="/">About</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/">Services</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/">Portfolio</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/">Testimonails</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/">Pricing</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="/">Contact</a>
+            </li>
+            <span class="material-icons icon-close">close</span>
+          </ul>
+          <span class="material-icons icon-menu" onclick="navToggle()"
+            >menu</span
+          >
+        </div>
+      </header>
+      <section class="services">
+        <div class="title">My<span>Services</span></div>
+        <div class="desc">
+          Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+          dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus
+          imperdiet
+        </div>
+        <div class="services-list row">
+          <div class="services-list__item col-2">
+            <div class="services-list__icon">
+              <img src="img/services/cup.svg" alt="cup" />
+            </div>
+            <div class="services-list__info">
+              <div class="services-list__title">Service title</div>
+              <div class="services-list__desc">
+                Rutrum cursus varius ullamcorper venenatis faucibus lobortis
+                turpis dignissim. Commodo pellentesque tristique aliquet turpis.
+                Morbi risus imperdiet
+              </div>
+            </div>
+          </div>
+          <div class="services-list__item col-2">
+            <div class="services-list__icon">
+              <img src="img/services/shield-check.svg" alt="check" />
+            </div>
+            <div class="services-list__info">
+              <div class="services-list__title">Service title</div>
+              <div class="services-list__desc">
+                Rutrum cursus varius ullamcorper venenatis faucibus lobortis
+                turpis dignissim. Commodo pellentesque tristique aliquet turpis.
+                Morbi risus imperdiet
+              </div>
+            </div>
+          </div>
+          <div class="services-list__item col-2">
+            <div class="services-list__icon">
+              <img src="img/services/menu.svg" alt="menu" />
+            </div>
+            <div class="services-list__info">
+              <div class="services-list__title">Service title</div>
+              <div class="services-list__desc">
+                Rutrum cursus varius ullamcorper venenatis faucibus lobortis
+                turpis dignissim. Commodo pellentesque tristique aliquet turpis.
+                Morbi risus imperdiet
+              </div>
+            </div>
+          </div>
+          <div class="services-list__item col-2">
+            <div class="services-list__icon">
+              <img src="img/services/send.svg" alt="send" />
+            </div>
+            <div class="services-list__info">
+              <div class="services-list__title">Service title</div>
+              <div class="services-list__desc">
+                Rutrum cursus varius ullamcorper venenatis faucibus lobortis
+                turpis dignissim. Commodo pellentesque tristique aliquet turpis.
+                Morbi risus imperdiet
+              </div>
+            </div>
+          </div>
+          <div class="services-list__item col-2">
+            <div class="services-list__icon">
+              <img src="img/services/setting.svg" alt="setting" />
+            </div>
+            <div class="services-list__info">
+              <div class="services-list__title">Service title</div>
+              <div class="services-list__desc">
+                Rutrum cursus varius ullamcorper venenatis faucibus lobortis
+                turpis dignissim. Commodo pellentesque tristique aliquet turpis.
+                Morbi risus imperdiet
+              </div>
+            </div>
+          </div>
+          <div class="services-list__item col-2">
+            <div class="services-list__icon">
+              <img src="img/services/headphone.svg" alt="headphones" />
+            </div>
+            <div class="services-list__info">
+              <div class="services-list__title">Service title</div>
+              <div class="services-list__desc">
+                Rutrum cursus varius ullamcorper venenatis faucibus lobortis
+                turpis dignissim. Commodo pellentesque tristique aliquet turpis.
+                Morbi risus imperdiet
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="title">My <span>Portfolio</span></div>
+        <div class="desc">
+          Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+          dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus
+          imperdiet
+        </div>
+        <div class="portfolio-list">
+          <div class="portfolio-list__item">
+            <img src="img/portfolio/item1.png" alt="portfolio" />
+            <a href="/" class="portfolio-list__search">
+              <img src="img/portfolio/search.svg" alt="search" />
+            </a>
+          </div>
+          <div class="portfolio-list__item">
+            <img src="img/portfolio/item2.png" alt="portfolio" />
+            <a href="/" class="portfolio-list__search">
+              <img src="img/portfolio/search.svg" alt="search" />
+            </a>
+          </div>
+          <div class="portfolio-list__item">
+            <img src="img/portfolio/item3.png" alt="portfolio" />
+            <a href="/" class="portfolio-list__search">
+              <img src="img/portfolio/search.svg" alt="search" />
+            </a>
+          </div>
+          <div class="portfolio-list__item">
+            <img src="img/portfolio/item4.png" alt="portfolio" />
+            <a href="/" class="portfolio-list__search">
+              <img src="img/portfolio/search.svg" alt="search" />
+            </a>
+          </div>
+          <div class="portfolio-list__item">
+            <img src="img/portfolio/item5.png" alt="portfolio" />
+            <a href="/" class="portfolio-list__search">
+              <img src="img/portfolio/search.svg" alt="search" />
+            </a>
+          </div>
+          <div class="portfolio-list__item">
+            <img src="img/portfolio/item6.png" alt="portfolio" />
+            <a href="/" class="portfolio-list__search">
+              <img src="img/portfolio/search.svg" alt="search" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="title">Listen to my <span>customers</span></div>
+        <div class="desc">
+          Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+          dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus
+          imperdiet
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

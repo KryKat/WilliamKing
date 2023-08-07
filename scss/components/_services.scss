@@ -1,0 +1,36 @@
+.services-list {
+  &__item {
+    background: var(--services-bg);
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  &__icon {
+    flex: 0 0 76px;
+    background: #21201e;
+    height: 76px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__info {
+  }
+
+  &__title {
+    color: var(--c-text-white);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  &__desc {
+    color: var(--c-text-white);
+    font-size: 16px;
+    line-height: 160%;
+  }
+}
