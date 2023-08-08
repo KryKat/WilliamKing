@@ -1,9 +1,6 @@
 .services-list {
   &__item {
-    background: var(--services-bg);
     border-radius: 12px;
-    padding: 32px;
-    display: flex;
     align-items: flex-start;
     gap: 20px;
   }
@@ -18,19 +15,10 @@
     justify-content: center;
   }
 
-  &__info {
-  }
-
   &__title {
     color: var(--c-text-white);
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 12px;
-  }
-
-  &__desc {
-    color: var(--c-text-white);
-    font-size: 16px;
-    line-height: 160%;
   }
 }

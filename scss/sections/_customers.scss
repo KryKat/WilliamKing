@@ -1,0 +1,30 @@
+.customers-list {
+
+		&__item {
+            border-radius: 8px;
+            flex-direction: column;
+            gap: 28px;
+		}
+
+		&__desc {
+            font-size: 18px;
+		}
+
+		&__person {
+            display: flex;
+            gap: 20px;
+		}
+		&__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+		}
+
+		&__name {
+            font-weight: 500;
+		}
+
+		&__position {
+            color: var(--c-primary);
+		}
+}

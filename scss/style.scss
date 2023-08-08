@@ -11,7 +11,9 @@
 @import 'layout/grid';
 
 // components
-@import 'components/header';
-@import 'components/common';
-@import 'components/services';
-@import 'components/portfolio';
+@import 'sections/common';
+@import 'sections/header';
+@import 'sections/main';
+@import 'sections/services';
+@import 'sections/portfolio';
+@import 'sections/customers';
