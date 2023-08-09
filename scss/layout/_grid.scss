@@ -18,8 +18,8 @@
     }
 }
 .col-3 {
-    width: 33.33%;
-    @include mobile {
+    width: calc(33.33% - 26px);
+    @include tablet {
         width: 100%;
     }
 }

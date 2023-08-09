@@ -1,7 +1,6 @@
 .customers-list {
 
 		&__item {
-            border-radius: 8px;
             flex-direction: column;
             gap: 28px;
 		}
@@ -22,9 +21,11 @@
 
 		&__name {
             font-weight: 500;
+			font-size: 18px;
 		}
 
 		&__position {
             color: var(--c-primary);
+			font-size: 18px;
 		}
 }

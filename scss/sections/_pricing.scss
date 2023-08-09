@@ -1,0 +1,47 @@
+.pricing-info {
+    @include tablet {
+        justify-content: center;
+    }
+		&__col {
+            display: flex;
+            flex-direction: column;
+		}
+
+        &__part1 {
+            border-bottom: 1px solid rgba(225, 225, 225, 0.15);
+		}
+
+		&__title {
+            font-size: 16px;
+            margin-bottom: 14px;
+		}
+
+		&__price {
+            font-weight: 500;
+            margin-bottom: 14px;
+		}
+
+		&__desc {
+            font-size: 14px;
+            margin-bottom: 35px;
+		}
+
+		&__btn {
+            margin-top: 35px;
+            margin-bottom: 35px;
+		}
+
+		&__list {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+		}
+
+		&__item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #A19A8B;
+            line-height: normal;
+		}
+}

@@ -1,0 +1,15 @@
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 14px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    margin-bottom: 24px;
+    color: var(--c-text-white);
+}
+textarea {
+    min-height: 120px;
+}

@@ -3,7 +3,7 @@ body {
 	background: var(--body-bg);
 }
 .container {
-	max-width: calc(1141px + 20px);
+	max-width: calc(1141px + 40px);
 	padding: 20px;
 	margin-inline: auto;
 }
@@ -11,6 +11,10 @@ section {
 	margin-top: 90px;
 	padding-top: 90px;
 	border-top: 1px solid rgba(225, 225, 225, 0.15);
+	@include tablet {
+		margin-top: 65px;
+		padding-top: 65px;
+	}
 	@include mobile {
 		margin-top: 45px;
 		padding-top: 45px;

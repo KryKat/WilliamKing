@@ -21,6 +21,7 @@
       justify-content: center;
       transform: translateX(-120%);
       transition: var(--transition);
+      z-index: 4;
     }
 
     &._active {
@@ -36,14 +37,8 @@
   }
 
   &__link {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-    color: var(--c-text-white);
-    transition: var(--transition);
-    &._active,
-    &:hover {
-      color: var(--c-primary);
+    @include tablet {
+      font-size: 25px;
     }
   }
 }
@@ -55,5 +50,6 @@
 
   @include tablet {
     display: inline-block;
+    color: var(--c-text-white);
   }
 }

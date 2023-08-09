@@ -40,9 +40,6 @@
 
   &__list {
     display: flex;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
     gap: 27px;
     @include desktop-small {
         font-size: 16px;
